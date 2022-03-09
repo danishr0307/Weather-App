@@ -1,0 +1,70 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #404040;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+.location , .temprature{
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+}
+.temps{
+  flex-direction: column;
+}
+.degree-section{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.degree-section span {
+margin: 10px;
+font-size: 30px;
+}
+.degree-section h2 {
+  font-size : 40px;
+}
+#submit{
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #938e8e;
+  padding: 2px;
+  width: 50px;
+  height:30px;
+}
+#submit:hover{
+  background-color: rgb(170, 167, 167);
+}
+#city{
+  padding: 6px 8px 6px 8px;
+  border-radius: 12px;
+  border :rgb(59, 58, 58)  1px solid;
+  background-color: #404040;
+  color: aliceblue; 
+  font-size: 15px;
+   
+}
+#city:hover{
+  background-color: rgb(170, 167, 167);
+}
+.name{
+  font-size: 32px;
+  font-weight: bold; 
+}
+.temps-description{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
